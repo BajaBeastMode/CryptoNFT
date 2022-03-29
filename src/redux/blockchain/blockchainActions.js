@@ -60,16 +60,11 @@ export const connect = () => {
         const networkId = await ethereum.request({
           method: "net_version",
         });
-        /*if (networkId == CONFIG.NETWORK.ID) {
+        if (networkId == 137) {
           const SmartContractObj = new Web3EthContract(
             abi,
             CONFIG.CONTRACT_ADDRESS
-          );*/
-        if (networkId === 1) {
-            const SmartContractObj = new Web3EthContract(
-              SmartContract,
-              "0x60ba38d20b888d2e3bbabe87dba74b925aeb3270"
-            );
+          );
           dispatch(
             connectSuccess({
               account: accounts[0],
