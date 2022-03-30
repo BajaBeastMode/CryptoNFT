@@ -2,9 +2,9 @@
   "CONTRACT_ADDRESS": "0x60ba38d20b888d2e3bbabe87dba74b925aeb3270",
   "SCAN_LINK": "https://polygonscan.com/token/0x60ba38d20b888d2e3bbabe87dba74b925aeb3270",
   "NETWORK": {
-    "NAME": "Polygon",
+    "NAME": "Polygon - Mumbai",
     "SYMBOL": "Matic",
-    "ID": 137
+    "ID": 80001
   },
   "NFT_NAME": "CrYptoBully",
   "SYMBOL": "CYBL",
